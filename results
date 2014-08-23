@@ -1,0 +1,23 @@
+Status:  200
+Message:  {"message":"success"}
+./scenario1.py -s Test 1 -t chip@pupman.com -f sgtestr@yahoo.com -p Testlab123 -u ipachip testmsg.txt
+Status:  200
+Message:  {"message":"success"}
+./scenario1.py -s Test 1, from yesterday -t chip@pupman.com -f sgtestr@yahoo.com -p Testlab123 -u ipachip -d Fri, 22 Aug 2014 14:18:26 -0600 testmsg.txt
+Status:  200
+Message:  {"message":"success"}
+./scenario1.py -s Test 2, with CC -t chip@pupman.com -f sgtestr@yahoo.com -p Testlab123 -u ipachip -c chip.atkinson@gmail.com testmsg.txt
+Status:  200
+Message:  {"message":"success"}
+./scenario1.py -s Test 3, with Attachment -t chip@pupman.com -f sgtestr@yahoo.com -p Testlab123 -u ipachip -c chip.atkinson@gmail.com -a scenario1.py -A scenario1.py testmsg.txt
+Mailing a file of 1048576 bytes
+Status:  200
+Message:  {"message":"success"}
+Mailing a file of 2097152 bytes
+Status:  200
+Message:  {"message":"success"}
+Mailing a file of 4194304 bytes
+Status:  200
+Message:  {"message":"success"}
+Mailing a file of 8388608 bytes
+Failed to mail, aborting
